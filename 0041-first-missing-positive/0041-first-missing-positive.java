@@ -1,22 +1,22 @@
-import java.util.Arrays;
-
 class Solution {
-
     public int firstMissingPositive(int[] nums) {
-
-        Arrays.sort(nums);
-
-        int expected = 1;
-
-        for (int num : nums) {
-
-            if (num == expected)
-                expected++;
-
-            else if (num > expected)
-                return expected;
+        int i = 0;
+        while(i < nums.length){
+            int current = nums[i] -1;
+            if(nums[i]>0 && nums[i]<= nums.length && nums[i]!=nums[current]){
+                int temp = nums[i];
+                nums[i]=nums[current];
+                nums[current]= temp;
+            }else{
+                i++;
+            }
         }
-
-        return expected;
+        for(i = 0 ; i<nums.length ; i++){
+            if(nums[i]!= i+1){
+                return i+1;
+            }
+        }
+        return nums.length +1;
+        
     }
 }
