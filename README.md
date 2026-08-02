@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0057-insert-interval) |
 | [0088-merge-sorted-array](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 | [0486-predict-the-winner](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 ## Hash Table
@@ -23,9 +24,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0189-rotate-array) |
 | [0486-predict-the-winner](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0877-stone-game) |
 ## Dynamic Programming
