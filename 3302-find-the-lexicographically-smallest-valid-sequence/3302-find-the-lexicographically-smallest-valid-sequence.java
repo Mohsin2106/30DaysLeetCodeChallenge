@@ -1,72 +1,67 @@
 class Solution {
     public int[] validSequence(String word1, String word2) {
 
-        int n = word1.length();
-        int m = word2.length();
+        char[] s = word1.toCharArray();
+        char[] t = word2.toCharArray();
 
-        // next[i] = earliest position in word1 from i onward
-        // where word2[j] can be matched.
-        int[] suffix = new int[m];
+        int n = s.length;
+        int m = t.length;
 
-        int i = n - 1;
+        int[] suffix = new int[n + 1];
 
-        // We need positions where word2 can be matched
-        // from right to left.
-        for (int j = m - 1; j >= 0; j--) {
+        int j = m - 1;
 
-            while (i >= 0 && word1.charAt(i) != word2.charAt(j)) {
-                i--;
-            }
+        for (int i = n - 1; i >= 0; i--) {
 
-            if (i < 0) {
-                suffix[j] = -1;
+            if (j >= 0 && s[i] == t[j]) {
+                suffix[i] = suffix[i + 1] + 1;
+                j--;
             } else {
-                suffix[j] = i;
-                i--;
+                suffix[i] = suffix[i + 1];
             }
         }
 
         int[] ans = new int[m];
 
-        int j = 0;
-        boolean usedMismatch = false;
+        int i = 0;
+        j = 0;
 
-        for (i = 0; i < n && j < m; i++) {
+        while (i < n && j < m) {
 
-            // Normal matching
-            if (word1.charAt(i) == word2.charAt(j)) {
+            if (s[i] == t[j]) {
 
+                ans[j] = i;
+                j++;
+
+            } else {
+
+                if (suffix[i + 1] >= m - j - 1) {
+
+                    ans[j] = i;
+                    j++;
+                    i++;
+                    break;
+                }
+            }
+
+            i++;
+        }
+
+        if (j < m && i == n)
+            return new int[0];
+
+        while (i < n && j < m) {
+
+            if (s[i] == t[j]) {
                 ans[j] = i;
                 j++;
             }
 
-            // Use the one allowed mismatch
-            else if (!usedMismatch) {
-
-                // If this is the last character, we can always
-                // use the mismatch.
-                if (j == m - 1) {
-
-                    ans[j] = i;
-                    usedMismatch = true;
-                    j++;
-                }
-
-                // Otherwise, make sure the remaining word2
-                // can still be matched after i.
-                else if (suffix[j + 1] > i) {
-
-                    ans[j] = i;
-                    usedMismatch = true;
-                    j++;
-                }
-            }
+            i++;
         }
 
-        // Could not match all characters
-        if (j != m) {
+        if (j != m)
             return new int[0];
-        }
 
         return ans;
     }
