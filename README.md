@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3731-find-missing-elements](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3731-find-missing-elements) |
 ## Sorting
 |  |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/0169-majority-element) |
 | [2029-stone-game-ix](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/2029-stone-game-ix) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -122,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Backtracking
 |  |
 | ------- |
@@ -132,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2029-stone-game-ix](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/2029-stone-game-ix) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Mohsin2106/30DaysLeetCodeChallenge/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Number Theory
 |  |
 | ------- |
